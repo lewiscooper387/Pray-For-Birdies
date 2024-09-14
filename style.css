@@ -1,0 +1,57 @@
+* {
+    margin:0
+    padding: 0 
+    box-sizing: border-box
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
+    background-color: rgb(102, 193, 102);
+    color: wheat;
+
+header {
+    background-color: rgb(102, 193, 102);
+    color: wheat;
+    padding: 10px 0;
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li{
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: wheat;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+form input[type="submit"]{
+    background-color: rgb(102, 193, 102);
+    color: wheat;
+    border: none;
+    cursor: pointer;
+}
+
+footer{
+    background-color: rgb(102, 193, 102);
+    color: wheat;
+    padding: 10px;
+}
